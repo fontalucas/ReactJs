@@ -1,9 +1,9 @@
-import Item from  '../Item/Item'
+import Item from  '../Item/Item';
 
-const ItemList = ({Burgers}) => { 
+const ItemList = ({burgers, setPage}) => { 
     return (
         <div>
-            { Burgers.map(prod => <Item key={prod.id} img={prod.img} name={prod.name} category={prod.category} price={prod.price}/>)}
+            {burgers.map(prod => <Item key={prod.id} {...prod} setPage={setPage} /* img={prod.img} name={prod.name} category={prod.category} price={prod.price} *//>)} 
         </div>
     )
 }
