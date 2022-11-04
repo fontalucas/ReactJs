@@ -1,0 +1,13 @@
+.navbar {
+    border: solid 1px black;
+    background-color: #0000008a;
+    justify-content: center;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;} 
+.navbar-nav {
+        margin: auto;
+        justify-content: space-evenly;
+        width: 80%; }
+
+.navbar a {
+    color: white !important; }
